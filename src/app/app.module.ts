@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderBarComponent } from './components/header-bar/header-bar.component';
+import { TitleComponent } from './components/title/title.component';
+import { BigCardComponent } from './components/big-card/big-card.component';
+import { SmallCardComponent } from './components/small-card/small-card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderBarComponent,
+    TitleComponent,
+    BigCardComponent,
+    SmallCardComponent
   ],
   imports: [
     BrowserModule,
