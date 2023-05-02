@@ -1,17 +1,38 @@
-<header>
-    <app-header-bar></app-header-bar>
-</header>
-
-
 <app-title></app-title>
-    <div class="articles">
-        <div class="articles_main">
-            <app-big-card></app-big-card>
-        </div>
-        <div class="articles_others">
-            <app-small-card></app-small-card>
-            <app-small-card></app-small-card>
-            <app-small-card></app-small-card>
-        </div>
-        
-    </div>
+
+<div class="container__articles">
+  <div class="articles__main">
+
+    <app-big-card
+      Id="1"
+      photoCover="https://legalpraviajar.com/wp-content/uploads/2023/04/brazil-g9952fb7f6_1920-1024x576.jpg"
+      cardTitle="Roteiro Inesquecível em Campos do Jordão"
+      cardDescription="Um passeio inesquecível"
+      >
+    </app-big-card>
+
+  </div>
+  <div class="articles__others">
+    <app-small-card
+      Id="2"
+      cardTitle="Olha o Luffy que bonito"
+      photoCover='https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/05/luffy-one-piece.webp?fit=1200%2C675&ssl=1'
+    >
+    </app-small-card>
+
+    <app-small-card
+      Id="3"
+      cardTitle="Novo filme do pantera negra lançado em breve"
+      photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35720ACD323F927C3A83D809D0F460BD3651740DA519BCC184B6F042057EA14D/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    >
+    </app-small-card
+    >
+
+    <app-small-card
+      Id="4"
+      cardTitle="Novo filme dos X-men está em pós produção, afirma diretor"
+      photoCover="https://midias.correiobraziliense.com.br/_midias/jpg/2022/07/22/675x450/1_xmen-26096415.jpeg?20220722171339?20220722171339"
+    >
+    </app-small-card>
+  </div>
+</div>

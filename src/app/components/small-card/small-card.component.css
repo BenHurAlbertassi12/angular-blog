@@ -1,27 +1,25 @@
-.small-card{
-    /* border: 1px white solid; */
-    width: 500px;
-    margin-bottom: 10px;
-
+.container__small-card {
+    width: 700px;
+    margin-bottom: 15px;
 }
 
-.small-card-content{
+.container__small-card-content {
     display: flex;
     flex-direction: row;
 }
 
-.small-card_photo > img{
+.small-card__photo>img {
     width: 200px;
+    min-width: 200px;
     margin-right: 20px;
-    
 }
 
-.small-card_title{
+.small-card__title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-hr{
+.container__small-card__separator {
     margin-top: 10px;
 }

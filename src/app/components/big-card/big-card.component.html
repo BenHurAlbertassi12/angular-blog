@@ -1,19 +1,24 @@
-<div class="container_big_card">
-    <div class="container_small-card-content">
-    <div class="big-card_photo">
-        <img 
-        src="../../../assets/img/img1.png" 
-        alt=""
-        width="150px"
-        >
-    </div>
-    <div class="big-card_title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
-    </div>
-    <div class="big-card_description">
-        <p>Eita lasqueira</p>
-    </div>
-    </div>
-    <hr>
-    
+<div class="container__big-card">
+
+  <div class="big-card__photo">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
+  </div>
+
+  <div class="big-card__title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+  </div>
+
+  <div class="big-card__description">
+    <p>
+      <a [routerLink]="['content', Id]">
+          {{ cardDescription }}
+      </a>
+    </p>
+  </div>
+
 </div>
